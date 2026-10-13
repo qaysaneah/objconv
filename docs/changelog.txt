@@ -1,3 +1,9 @@
+2026-10-13 version 2.52
+* Added local copies of inttypes.h and stdint.h to support compilation on Visual Studio 2010.
+* Defined snprintf as _snprintf to resolve missing C99 identifiers in older MSVC toolsets.
+* Verified successful build for Windows XP 32-bit.
+
+
 2019-10-25 version 2.52
 *Used objconv to rename ~20K symbols in a library with about 200K symbols. 
 * Have fixed few minor but obvious problems:

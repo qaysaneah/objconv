@@ -1,0 +1,80 @@
+﻿Build started 10/13/2026 9:13:21 AM.
+     1>Project "Z:\myTOOLS\objconv\src\objconv.vcxproj" on node 2 (rebuild target(s)).
+       Project file contains ToolsVersion="15.0", which is not supported by this version of MSBuild. Treating the project as if it had ToolsVersion="4.0".
+     1>InitializeBuildStatus:
+         Creating "x64\Release\objconv.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ot /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yc"StdAfx.h" /Fp"x64\Release\objconv.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /wd4996 /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ot /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yu"StdAfx.h" /Fp"x64\Release\objconv.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /wd4996 /errorReport:prompt cmdline.cpp cof2asm.cpp cof2cof.cpp cof2elf.cpp cof2omf.cpp coff.cpp containers.cpp disasm1.cpp disasm2.cpp elf.cpp elf2asm.cpp elf2cof.cpp elf2elf.cpp elf2mac.cpp error.cpp library.cpp mac2asm.cpp mac2elf.cpp mac2mac.cpp macho.cpp main.cpp omf.cpp omf2asm.cpp omf2cof.cpp omfhash.cpp opcodes.cpp
+         cmdline.cpp
+         cof2asm.cpp
+         cof2cof.cpp
+         cof2elf.cpp
+         cof2omf.cpp
+         coff.cpp
+         containers.cpp
+         disasm1.cpp
+     1>disasm1.cpp(4492): warning C4267: '=' : conversion from 'size_t' to 'uint32', possible loss of data
+         disasm2.cpp
+         elf.cpp
+         elf2asm.cpp
+         elf2cof.cpp
+         elf2elf.cpp
+         elf2mac.cpp
+         error.cpp
+         library.cpp
+     1>library.cpp(1145): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         mac2asm.cpp
+         mac2elf.cpp
+         mac2mac.cpp
+         macho.cpp
+         Generating Code...
+         Compiling...
+         main.cpp
+         omf.cpp
+         omf2asm.cpp
+     1>omf2asm.cpp(287): warning C4267: 'argument' : conversion from 'size_t' to 'uint32', possible loss of data
+         omf2cof.cpp
+         omfhash.cpp
+         opcodes.cpp
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\myTOOLS\objconv\src\x64\Release\objconv.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\objconv.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\myTOOLS\objconv\src\x64\Release\objconv.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"Z:\myTOOLS\objconv\src\x64\Release\objconv.lib" /MACHINE:X64 x64\Release\cmdline.obj
+         x64\Release\cof2asm.obj
+         x64\Release\cof2cof.obj
+         x64\Release\cof2elf.obj
+         x64\Release\cof2omf.obj
+         x64\Release\coff.obj
+         x64\Release\containers.obj
+         x64\Release\disasm1.obj
+         x64\Release\disasm2.obj
+         x64\Release\elf.obj
+         x64\Release\elf2asm.obj
+         x64\Release\elf2cof.obj
+         x64\Release\elf2elf.obj
+         x64\Release\elf2mac.obj
+         x64\Release\error.obj
+         x64\Release\library.obj
+         x64\Release\mac2asm.obj
+         x64\Release\mac2elf.obj
+         x64\Release\mac2mac.obj
+         x64\Release\macho.obj
+         x64\Release\main.obj
+         x64\Release\omf.obj
+         x64\Release\omf2asm.obj
+         x64\Release\omf2cof.obj
+         x64\Release\omfhash.obj
+         x64\Release\opcodes.obj
+         x64\Release\stdafx.obj
+         objconv.vcxproj -> Z:\myTOOLS\objconv\src\x64\Release\objconv.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\myTOOLS\objconv\src\x64\Release\objconv.exe;#1" /manifest x64\Release\objconv.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\objconv.unsuccessfulbuild".
+         Touching "x64\Release\objconv.lastbuildstate".
+     1>Done Building Project "Z:\myTOOLS\objconv\src\objconv.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.64

@@ -1,0 +1,78 @@
+Folder PATH listing for volume Shared Folders
+Volume serial number is 0000-0064
+Z:.
+|   .gitignore
+|   objconv.tree
+|   README
+|   
++---bin
+|       objconv_32bit.exe
+|       objconv_32bit.log
+|       objconv_64bit.exe
+|       objconv_64bit.log
+|       
++---docs
+|       changelog.txt
+|       objconv-instructions.pdf
+|       
++---extras
+|       extras.zip
+|       u2wstub.asm
+|       u2wstub.obj
+|       u2wstubvec1.asm
+|       u2wstubvec1.obj
+|       u2wstubvec2.asm
+|       u2wstubvec2.obj
+|       w2ustub.asm
+|       w2ustub.o
+|       w2ustubvec.asm
+|       w2ustubvec.o
+|       
+\---src
+        cmdline.cpp
+        cmdline.h
+        cof2asm.cpp
+        cof2cof.cpp
+        cof2elf.cpp
+        cof2omf.cpp
+        coff.cpp
+        coff.h
+        containers.cpp
+        containers.h
+        converters.h
+        disasm.h
+        disasm1.cpp
+        disasm2.cpp
+        elf.cpp
+        elf.h
+        elf2asm.cpp
+        elf2cof.cpp
+        elf2elf.cpp
+        elf2mac.cpp
+        error.cpp
+        error.h
+        inttypes.h
+        library.cpp
+        library.h
+        mac2asm.cpp
+        mac2elf.cpp
+        mac2mac.cpp
+        macho.cpp
+        macho.h
+        main.cpp
+        maindef.h
+        objconv.sln
+        objconv.vcproj
+        objconv.vcxproj
+        objconv.vcxproj.filters
+        objconv.vcxproj.user
+        omf.cpp
+        omf.h
+        omf2asm.cpp
+        omf2cof.cpp
+        omfhash.cpp
+        opcodes.cpp
+        stdafx.cpp
+        stdafx.h
+        stdint.h
+        

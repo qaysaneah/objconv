@@ -20,3 +20,10 @@ Denmark
 
 Last edited: 
 "Ralic Lo"<ralic.lo.eng@ieee.org>
+
+========================================================================
+2026-10-13 Modifications (Visual Studio 2010 / XP 32-bit Compatibility):
+========================================================================
+* Added `inttypes.h` and `stdint.h` to the `\src` directory. Older Microsoft Visual Studio toolsets (prior to VS 2013) lack full C99 standard support and do not include these headers by default. 
+* Mapped `snprintf` to the MSVC-specific `_snprintf` in `error.cpp` to resolve missing identifier errors.
+* Purpose: These modifications allow the project to compile cleanly from source using older toolsets like Visual Studio 2010, specifically to maintain legacy build support for Windows XP 32-bit environments.

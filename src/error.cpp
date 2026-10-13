@@ -16,6 +16,13 @@
 
 #include "stdafx.h"
 
+/*
+ * This versions of Visual Studio (prior to 2015) do not fully support the C99 standard.
+ * They lack the standard snprintf function,
+ * relying on a Microsoft-specific version called _snprintf instead.
+ */ #define snprintf _snprintf
+
+
 #define MAX_ERROR_TEXT_LENGTH 1024 // Maximum length of error text including extra info
 
 
